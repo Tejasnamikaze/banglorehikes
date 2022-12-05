@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIKES</title>
+</head>
+<!-- <link rel="stylesheet" href="boot1.css" type="text> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color:rgb(255,193,0); color:#FEFEFE;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Banglore HIKES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rent gears</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Visit Store</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Story
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!--for next part-->
+
+
+<nav class="navbar navbar-expand-lg" style="background-color:white; color:black; ">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Upcoming treks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Beginner treks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Summer Camps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">Documented Treks</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- next part-->
+<style>
+    .bg_overlay {
+        height: 600px;
+        background: rgba(0,0,0,.2);
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg");
+        background-size: cover;
+    }
+    .container{
+        
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: auto;
+            margin-left: auto;
+        
+    }
+    .banner-text-sec {
+        overflow: visible;
+        line-height: 56px;
+        text-align: center;
+        padding: 200px 0;
+    }
+    .banner-text-1 {
+        line-height: 56px;
+        text-align: center;
+        font-family: Franklin Gothic Medium;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 2px;
+        margin-bottom: 50px;
+    }
+    .banner-text-2 {
+        line-height: 30px;
+        text-align: center;
+        font-family: Franklin Gothic Medium;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(255,255,255,1);
+        text-transform: none;
+        letter-spacing: .5px;
+    }
+    .mt-3 {
+        margin-top: 1rem!important;
+    }
+    .btn-ih-primary {
+        background: rgb(255,193,0);
+        border-color: rgb(255,193,0);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color: black;
+        font-size: 18px;
+        text-transform: none;
+        font-family: Franklin Gothic Medium;
+    }
+
+
+.hvr-grow {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px)translateZ(0);
+    -moz-transform: perspective(1px)translateZ(0);
+    transform: perspective(1px)translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0,0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: transform;
+    -moz-transition-timing-function: -moz-transform;
+    -o-transition-timing-function: -o-transform;
+    transition-property: -webkit-transform;
+    transition-property: -moz-transform;
+    transition-property: -o-transform;
+    transition-property: transform;
+}
+</style>
+<div class="bg_overlay">
+    <div class="container">
+        <div class="banner-text-sec">
+            <p class="banner-text-1">Banglore’s Largest &amp; Safest Trekking Organisation</p>
+            <div class="banner-text-2"><p><strong>Pioneering trek experiences and safety standards for over multitudes of students every year</strong></p>
+            </div><div class="mt-3 m-text-center">
+                <button class="btn btn-lg btn-ih-primary hvr-grow">View Upcoming Treks </button>
+            </div></div></div></div>
+</div>
+<!--the next page after main iamge-->
+<div class="class1">
+    <div class="classunder1" style="background-color:rgb(255,193,0);padding:5%">
+        <p>Did You Know Winter Trekking In Jan & Feb Is Better Than December?
+
+        Most trekkers flock to the mountains in December, not realising the snow experience they're missing out in in Jan & Feb. Click here to not make the same mistake.
+    </p>
+    </div>
+</div>
+
+<!-- after all this best treks to do-->
+<div class="cardsouter" style="margin:3%;display:flex;background-Color:rgb(255,193,0)">
+    <div class="card" style="width: 500px;height:530px;margin:3%">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqbKoQG5OTE0q3IJsJ9gnvu0jwRazmGL-Sg&usqp=CAU"
+         class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bandaje Trek</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Dolore sapiente aliquam possimus, sint quibusdam neque non numquam repudiandae voluptatem ea, dolorem tenetur voluptas hic maiores, commodi sed earum ab nobis illum officiis blanditiis vero?
+            .</p>
+          <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 500px;height:530px;margin:3%">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqbKoQG5OTE0q3IJsJ9gnvu0jwRazmGL-Sg&usqp=CAU"
+         class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kudremukh Trek</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Dolore sapiente aliquam possimus, sint quibusdam neque non numquam repudiandae voluptatem ea, dolorem tenetur voluptas hic maiores, commodi sed earum ab nobis illum officiis blanditiis vero?
+            .</p>
+          <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+      
+      
+</div>
+<!--footer-->
+
+<section class="" style="padding: 1.5%;margin-bottom:2%">
+    <!-- Footer -->
+    <footer class=" text-white text-center" style="background-color: rgb(255,193,0);">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Footer Content</h5>
+  
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+              aliquam voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Links</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">BMSCE</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://bmsce.ac.in/">BMSCE.com</a>
+      </div> -->
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </section>
+   <div class="class-news-outer" style="background-color:rgb(255,193,0) ;color:white;:3%;margin:0px 20px 80px 20px; ">
+   <div class="news-inner" style=""><h3><p>Latest News From banglore hikes</p></h3>
+</div>
+   <div class="news-outer"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, in aliquam reiciendis ducimus non obcaecati. Asperiores id atque error praesentium! Laborum cupiditate ratione labore quod inventore corrupti nisi, non, tempore quis ut sit. Eum?
+
+   </p></div>
+   </div>
+
+  <!--footer fixed-->
+  <footer class="text-center text-white fixed-bottom" style="background-color:transparent;text:white;">
+    <!-- Grid container -->
+    <div class="container p-4"></div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(5, 5, 5, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://bmsce.ac.in/">BMSCE_HIKES.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+</html>
